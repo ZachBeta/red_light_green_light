@@ -22,4 +22,10 @@ describe Factorial do
       Factorial.calculate(3).should == 6
     end
   end
+
+  context 'for input 10^10' do
+    it "doesn't take forever or bomb!" do
+      Factorial.calculate(10**10).should == 0
+    end
+  end
 end
