@@ -1,6 +1,9 @@
 class Factorial
   def self.calculate(input)
-    1
+    if 0 == input
+      1
+    else
+      input
+    end
   end
-
 end
