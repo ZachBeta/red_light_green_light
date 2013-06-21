@@ -3,7 +3,7 @@ class Factorial
     if 0 == input
       1
     else
-      input
+      input * self.calculate(input-1)
     end
   end
 end

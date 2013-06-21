@@ -17,4 +17,9 @@ describe Factorial do
       Factorial.calculate(2).should == 2
     end
   end
+  context 'for input 3' do
+    it 'returns 6' do
+      Factorial.calculate(3).should == 6
+    end
+  end
 end
